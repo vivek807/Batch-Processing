@@ -1,0 +1,7 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Directory\shell\GitUpdate]
+@="Update Code from GIT"
+
+[HKEY_CLASSES_ROOT\Directory\shell\GitUpdate\command]
+@="\"E:\\Research Work\\GIT Update.bat\" \"%1\""
